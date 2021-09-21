@@ -3,6 +3,17 @@
 #include <limits>
 #include <memory>
 
+/*
+T* find_min() - returns pointer to object with min key
+int min_key() - returns the minimum key present in the heap
+T* extract_min() - returns pointer to object with min key and extracts it from the heap, returns nullptr if heap is empty
+bool decrease_key(int new_key, node* changed_node) - changes priority node inside heap to have new priority. Needs to have pointer to the node passed as parameter
+void delete_key (node* del_node) - deletes specific node
+void merge_heaps(fib_heap& mheap) - merges mheap into this heap by reference. mheap will be empty afterwards
+void merge_heaps(fib_heap* mheap) - merges mheap into this heap by pointer. mheap will be empty afterwards
+node* insert(int key, T* obj_ptr = nullptr) - inserts an object into the heap with priority 'key', returns pointer to the node inside the heap
+int size() - returns size of the heap
+*/
 template <class T>
 class fib_heap {
 public:
