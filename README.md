@@ -6,3 +6,4 @@ Miscellaneous snippets of algorithms / data structures
 - LList.h: implementation of linked list (similar to std::list)
 - adj_list.h: implementation of adjacency list
 - fib_heap.h: implementation of fibonacci heap
+- Fisher_Yates_Shuffle.h: implementation of Fisher-Yates Shuffle
