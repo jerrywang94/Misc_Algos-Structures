@@ -7,3 +7,4 @@ Miscellaneous snippets of algorithms / data structures
 - adj_list.h: implementation of adjacency list
 - fib_heap.h: implementation of fibonacci heap
 - Fisher_Yates_Shuffle.h: implementation of Fisher-Yates Shuffle
+- Binary_To_Base64_Encoder.h: Converter/Decoder between string of binary and string of B64
